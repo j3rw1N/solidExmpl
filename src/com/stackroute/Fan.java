@@ -1,8 +1,7 @@
 package com.stackroute;
 
-public class Fan {
+public class Fan implements ElectricAppliance{
     public void on() {
-        //this.status = status;
         System.out.println("Fan is rotating");
     }
 

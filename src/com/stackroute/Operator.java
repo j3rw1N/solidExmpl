@@ -13,14 +13,16 @@ public class Operator {
         sw1tch.toggle();
         sw1tch.toggle();
 
+        System.out.println("------------------------------------");
+
         //simulating fan
         Fan fan = new Fan();
-        Sw1tch sw1tc2h = new Sw1tch(fan);
-        sw1tch.toggle();
-        sw1tch.toggle();
-        sw1tch.toggle();
-        sw1tch.toggle();
-        sw1tch.toggle();
-        sw1tch.toggle();
+        Sw1tch sw1tch2 = new Sw1tch(fan);
+        sw1tch2.toggle();
+        sw1tch2.toggle();
+        sw1tch2.toggle();
+        sw1tch2.toggle();
+        sw1tch2.toggle();
+        sw1tch2.toggle();
     }
 }

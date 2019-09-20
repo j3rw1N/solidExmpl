@@ -1,9 +1,8 @@
 package com.stackroute;
 
-public class Bulb {
+public class Bulb implements ElectricAppliance{
 
     public void on() {
-        //this.status = status;
        System.out.println("Bulb is turned on");
     }
 

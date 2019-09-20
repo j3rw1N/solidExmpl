@@ -1,21 +1,21 @@
 package com.stackroute;
 
 public class Sw1tch {
-    private Bulb bulb;
+    private ElectricAppliance appliance;
     private boolean curPosition;
 
-    public Sw1tch(Bulb bulb) {
-        this.bulb = bulb;
+    public Sw1tch(ElectricAppliance appliance) {
+        this.appliance = appliance;
     }
 
     public void toggle() {
-        if(curPosition == true) {
+        if(curPosition) {
             this.curPosition = false;
-            bulb.off();
+            appliance.off();
         }
         else {
             this.curPosition = true;
-            bulb.on();
+            appliance.on();
         }
     }
 }
